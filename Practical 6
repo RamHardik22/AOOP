@@ -1,0 +1,21 @@
+class Student {
+  int enrollmentNo;
+  String name;
+
+  Student(int enrollmentNo, String name) {
+    this.enrollmentNo = enrollmentNo;
+    this.name = name;
+  }
+}
+
+public class Main {
+  public static void main(String[] args) {
+    Student s1 = new Student(1, "Aryan");
+    Student s2 = new Student(2, "harshad");
+    Student s3 = new Student(3, "karan");
+
+    System.out.println(s1.name);
+    System.out.println(s2.name);
+    System.out.println(s3.name);
+  }
+}
