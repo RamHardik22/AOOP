@@ -1,0 +1,14 @@
+public class Rectangle {
+  double height, width;
+
+  Rectangle(double height, double width) {
+    this.height = height;
+    this.width = width;
+  }
+
+  public static void main(String[] args) {
+    Rectangle rectangle = new Rectangle(34.55, 65.43);
+    System.out.println("Height: " + rectangle.height);
+    System.out.println("Width: " + rectangle.width);
+  }
+}
