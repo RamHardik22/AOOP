@@ -1,0 +1,16 @@
+class Example {
+  private int value;
+
+  public Example(int value) {
+    this.value = value;
+  }
+
+  public void displayValue() {
+    System.out.println("Value: " + this.value);
+  }
+
+  public static void main(String[] args) {
+    Example example = new Example(10);
+    example.displayValue();
+  }
+}
