@@ -1,0 +1,32 @@
+class Rectangle {
+  private int length;
+  private int width;
+
+  public Rectangle() {
+    this.length = 1;
+    this.width = 1;
+  }
+
+  public Rectangle(int side) {
+    this.length = side;
+    this.width = side;
+  }
+
+  public Rectangle(int length, int width) {
+    this.length = length;
+    this.width = width;
+  }
+
+  public int getArea() {
+    return length * width;
+  }
+
+  public static void main(String[] args) {
+    Rectangle rect1 = new Rectangle();
+    Rectangle rect2 = new Rectangle(5);
+    Rectangle rect3 = new Rectangle(4, 6);
+    System.out.println("Area of rect1: " + rect1.getArea());
+    System.out.println("Area of rect2: " + rect2.getArea());
+    System.out.println("Area of rect3: " + rect3.getArea());
+  }
+}
