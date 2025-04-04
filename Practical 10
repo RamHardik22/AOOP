@@ -1,0 +1,13 @@
+public class FinalKeywordExample {
+  final int finalVariable = 10;
+
+  final void displayFinalMessage() {
+    System.out.println("This is a final method.");
+  }
+
+  public static void main(String[] args) {
+    FinalKeywordExample example = new FinalKeywordExample();
+    System.out.println("Final Variable: " + example.finalVariable);
+    example.displayFinalMessage();
+  }
+}
