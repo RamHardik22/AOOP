@@ -1,0 +1,18 @@
+public class StringMethodsDemo {
+  public static void main(String[] args) {
+    String sampleText = "Hello, welcome to the world of Java programming!";
+    char character = sampleText.charAt(7);
+    System.out.println("Character at index 7: " + character);
+    boolean containsWord = sampleText.contains("Java");
+    System.out.println("Contains 'Java': " + containsWord);
+    String formattedString = String.format("The length of the string is: %d", sampleText.length());
+    System.out.println(formattedString);
+    int length = sampleText.length();
+    System.out.println("Length of the string: " + length);
+    String[] words = sampleText.split(" ");
+    System.out.println("Words in the string:");
+    for (String word : words) {
+      System.out.println(word);
+    }
+  }
+}
